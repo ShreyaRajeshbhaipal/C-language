@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int a,b;
+	clrscr();
+
+
+	printf("Enter any first number :");
+	scanf("%d",&a);
+
+	printf("Enter any seconf number :");
+	scanf("%d",&b);
+	printf("Value before Swap :\n");
+	printf("a : %d\n b : %d",a,b);
+	printf("\n\n");
+	a = b/a;
+	b = b/a;
+	a = b*a;
+
+	printf("Value after Swap :\n");
+	printf(" a = %d\n b = %d",a,b);
+
+
+
+	\
+
+
+
+
+
+
+	 getch();
+
+}
