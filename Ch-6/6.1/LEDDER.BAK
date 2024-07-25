@@ -1,0 +1,73 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int guj,eng,ss,sci,sp,persantage;
+	clrscr();
+
+	printf("Enter your mark :");
+	scanf("%d",&guj);
+
+	printf("Enter your mark :");
+	scanf("%d",&eng);
+
+	printf("Enter your mark :");
+	scanf("%d",&ss);
+
+	printf("Enter your mark :");
+	scanf("%d",&sci);
+
+	printf("Enter your mark :");
+	scanf("%d",&sp);
+
+	persantage = (guj+eng+ss+ss+sp)*100/500;
+
+	if(persantage>=91 && Persantage<100)
+	{
+		clrscr();
+		printf("Grade\t : A+");
+	}
+
+	if else(persantage>=81 && Persantage<90)
+	{
+		clrscr();
+		printf("Grade\t : A");
+	}
+
+	  if else(persantage>=71 && Persantage<80)
+	{
+		clrscr();
+		printf("Grade\t : B+");
+	}
+
+	   if else(persantage>=61 && Persantage<70)
+	{
+		clrscr();
+		printf("Grade\t : B");
+	}
+
+	    if else(persantage>=51 && Persantage<60)
+	{
+		clrscr();
+		printf("Grade\t : C+");
+	}
+	    if else(persantage>=41 && Persantage<50)
+	{
+		clrscr();
+		printf("Grade\t : C");
+	}
+	if else(persantage>=33 && Persantage<40)
+	{
+		clrscr();
+		printf("Grade\t : D");
+	}
+
+	else
+	{
+	clrscr();
+	printf("You are fail");
+
+
+    getch();
+}
